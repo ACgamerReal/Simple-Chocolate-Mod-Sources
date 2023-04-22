@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+      "pattern": [
+        "SS",
+        "SS",
+        "CC"
+      ],
+      "result": {
+        "count": 1,
+        "item": "simple-chocolate-mod:white_chocolate_bar"
+      },
+      "show_notification": true
+    }

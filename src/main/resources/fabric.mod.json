@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "simple-chocolate-mod",
+	"version": "${version}",
+	"name": "Simple Chocolate Mod",
+	"description": "A simple mod that adds chocolate and other chocolate related stuff to the game!",
+	"authors": [
+		"ACgamer_Real"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/simple-chocolate-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ac.scm.simplechocolatemod"
+		],
+		"fabric-datagen": [
+			"net.ac.scm.simplechocolatemodModDataGenerator"
+		]
+	},
+	"client": [
+		"net.ac.scm.simplechocolatemodClient"
+	],
+	"mixins": [
+		"simple-chocolate-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
